@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="600dp"
+    android:id="@+id/OfferView"
+    android:background="@color/gray"
+    android:layout_height="600dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_gravity="center"
+        android:id="@+id/test"
+        android:textColor="#FFFFFF"
+        android:text="Test Pop-Up" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="300dp"
+        android:hint="Insert an Offer"
+        android:textColorHint="#d3d3d3"
+        android:background="@drawable/edittext_border"
+        android:id="@+id/OfferInput"
+        android:inputType="textMultiLine"
+
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SendOfferButton"
+        android:onClick="onSendButtonClick"
+        android:textColor="#ffffff"
+        android:text="Send Offer"
+        android:background = "@drawable/rounded_btn"
+        />
+</LinearLayout>

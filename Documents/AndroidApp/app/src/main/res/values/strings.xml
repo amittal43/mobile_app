@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FX</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">1690102464607826</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_id">Id</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main_page">Swiping Time!</string>
+    <string name="title_activity_post">PostActivity</string>
+    <string name="title_activity_list_detail_page">Detail Activity</string>
+    <string name="title_activity_post_page"> Post Item </string>
+    <string name="title_activity_location">Location</string>
+    <string name="title_activity_location_finder">LocationFinder</string>
+
+    <string name="pause">Pause Location Updates</string>
+    <string name="resume">Resume Location Updates</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_user_location">UserLocation</string>
+    <string name="title_activity_chat_room">ChatRoom</string>
+    <string name="title_activity_offer">OfferActivity</string>
+</resources>
